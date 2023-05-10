@@ -1,0 +1,73 @@
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  column-gap: 30px;
+}
+
+.header input {
+  width: 300px;
+  height: 30px;
+}
+
+.header button {
+  width: 80px;
+  height: 30px;
+}
+
+.header select {
+  height: 30px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.filter h2 {
+  line-height: 30px;
+}
+
+.table_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid red;
+}
+
+.table_header-column {
+  padding-left: 15px;
+  flex: 1 1;
+  text-transform: capitalize;
+}
+
+.table_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.table_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid red;
+}
+
+.column {
+  padding: 20px 0 20px 15px;
+  flex: 1 1;
+  text-transform: capitalize;
+  display: flex;
+  gap: 10px;
+}
+
+.column button {
+  padding: 8px 20px;
+}
